@@ -307,7 +307,6 @@ std::pair<SSNode*, SSNode*> SSNode::insert(SSNode*& node, Data* data) {
     return node->split();
 }
 
-
 /**
  * search
  * Searches for a specific data in the tree.
@@ -337,8 +336,6 @@ SSNode* SSNode::search(SSNode* node, Data* _data) {
     return nullptr;
 }
 
-
-
 /**
  * insert
  * Inserts data into the tree.
@@ -356,7 +353,6 @@ void SSTree::insert(Data* _data) {
         root->isLeaf = false;
     }
 }
-
 
 /**
  * search
