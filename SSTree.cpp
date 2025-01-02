@@ -1,5 +1,13 @@
 #include "SSTree.h"
 
+/**
+ * calculateMean
+ * Computes the mean value of centroids along a specific dimension.
+ * @param centroids: A vector of `Point` objects representing the centroids.
+ * @param dimension: The dimension (index) to calculate the mean for.
+ * @return float: The mean value of the centroids along the specified dimension.
+ */
+
 float calculateMean(const std::vector<Point>& centroids, size_t dimension) {
     float sum = 0.0f;
     for (const auto& point : centroids) {
@@ -7,6 +15,14 @@ float calculateMean(const std::vector<Point>& centroids, size_t dimension) {
     }
     return sum / centroids.size();
 }
+
+/**
+ * calculateVariance
+ * Computes the variance of a set of centroids in a specific dimension.
+ * @param centroids: A vector of `Point` objects representing the centroids of the nodes.
+ * @param dimension: The dimension (index) along which to calculate the variance.
+ * @return float: The variance of the centroids along the specified dimension.
+ */
 
 float calculateVariance(const std::vector<Point>& centroids, size_t dimension) {
     
