@@ -49,3 +49,5 @@ The project includes a `Makefile` to simplify the build process. To compile and 
     ```
         
 After execution, the test results will be displayed in the terminal, indicating whether the ss-tree implementation passed or failed the various tests.
+
+![output](https://github.com/user-attachments/assets/894f90eb-9fff-4976-af1a-ef7984ae32a1)
