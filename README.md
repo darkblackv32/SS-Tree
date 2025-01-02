@@ -1,4 +1,4 @@
-## SS-TREE
+# SS-TREE
 
 ### Overview
 
@@ -23,3 +23,11 @@ You can install **Eigen3** using the following commands:
 #### On Ubuntu (or other Debian-based systems):
 ```bash
 sudo apt-get install libeigen3-dev
+```
+#### On MacOS:
+```bash
+brew install eigen
+```
+
+
+
