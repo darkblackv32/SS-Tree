@@ -27,13 +27,11 @@ float calculateMean(const std::vector<Point>& centroids, size_t dimension) {
 float calculateVariance(const std::vector<Point>& centroids, size_t dimension) {
     
     float meanValue = calculateMean(centroids, dimension);
-
     float varianceSum = 0.0f;
     for (const auto& point : centroids) {
         float deviation = point[dimension] - meanValue;
         varianceSum += deviation * deviation; 
     }
-
     return varianceSum / static_cast<float>(centroids.size());
 }
 
