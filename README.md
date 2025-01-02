@@ -1,4 +1,4 @@
-# SS-TREE
+# ss-tree
 
 ### Overview
 
