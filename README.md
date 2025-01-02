@@ -36,7 +36,7 @@ The project includes a `Makefile` to simplify the build process. To compile and 
 
 1. Clone the repository:
     ```bash
-    git clone [https://github.com/darkblackv32/ss-tree/]
+    git clone https://github.com/darkblackv32/ss-tree/
     cd ss-tree
     ```
 
