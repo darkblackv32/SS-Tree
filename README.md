@@ -4,9 +4,7 @@
 
 SS-TREE is a high-performance spatial data structure designed for efficient querying and indexing of multi-dimensional data. It provides a tree-based structure that allows fast nearest-neighbor searches, efficient data insertion, and range queries. The tree's design is based on spatial partitioning principles and optimized for high-dimensional spaces, leveraging techniques such as bounding volumes and hierarchical indexing.
 
-<div style="text-align: center;">
-  ![ss-tree](https://github.com/user-attachments/assets/16afeb5e-aa97-487d-8c3f-1986b998fa6e)
-</div>
+![ss-tree](https://github.com/user-attachments/assets/16afeb5e-aa97-487d-8c3f-1986b998fa6e)
 
 This repository contains the implementation of the SS-TREE data structure, with core features including:
 
