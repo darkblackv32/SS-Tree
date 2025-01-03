@@ -365,7 +365,6 @@ SSNode* SSTree::search(Data* _data) {
     return root->search(root,_data);
 }
 
-
 /**
  * knn-search
  * Returns the k nearest neighbors.
